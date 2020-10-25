@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    margin-left:25%;
+    margin-right:25%;
+    font-family: 'arial';
+    background-color:#ffffe6;
+}
+
+.title{
+    text-align:center;
+    font-family: 'bebas neue';
+    font-size:500%;
+    margin-bottom:0;
+    margin-top:0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    border-bottom:1px solid black;
+    padding:2%;
+}
+
+nav a{
+    border:.5px solid black;
+    padding:.5%;
+    color:black;
+}
+
+.imgContainer{
+    display: inline; 
+}
+
+#lambdaLogo{
+    width:45%;
+    height:auto;
+}
+
+#apuLogo{
+    width:45%;
+    height:auto;
+}
+
+#jobDescriptionImg{
+    width:100%;
+    height:auto;
+}
+
+table {
+    width:100%;
+}
+
+table, th, td {
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: center;
+}
+
+.italic{
+    font-style:italic;
+}
+
+.bold{
+    font-weight:bold;
+}
