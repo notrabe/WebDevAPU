@@ -48,6 +48,11 @@ nav a{
     height:auto;
 }
 
+#knowledgeAndSkillsImg{
+    width: 100%;
+    height: auto;
+}
+
 table {
     width:100%;
 }
@@ -68,3 +73,55 @@ td {
 .bold{
     font-weight:bold;
 }
+
+/* Media Queries */
+
+@media (max-width:500px){
+
+    .title{
+        font-size: x-large;
+    }
+    
+    header nav{
+        display: flex;
+        flex-direction:column ; 
+        align-items: center;
+        text-align: center;
+    }
+
+    body{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media (max-width:800px){
+
+    .title{
+        font-size: x-large;
+    }
+    
+    header nav a {
+        padding: 1%;
+        border: none;
+        font-size: large;
+    }
+    
+    header nav{
+        display: flex;
+        flex-direction:column ; 
+        align-items: center;
+        text-align: center;
+    }
+
+    body{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+@media (max-width:1412px){
+    header nav {
+        font-size: 12px;
+    }
+}
+
